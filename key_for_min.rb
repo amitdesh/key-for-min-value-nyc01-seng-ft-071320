@@ -10,5 +10,4 @@ def key_for_min_value(name_hash)
     end
   end
   ans = name_hash.select {|key| name_hash[key] == min_key}
-  return ans[0]
 end
