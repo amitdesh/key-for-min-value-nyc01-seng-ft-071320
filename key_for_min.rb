@@ -9,5 +9,8 @@ def key_for_min_value(name_hash)
       min_key = name_hash[key]
     end
   end
-  name_hash.detect {|key| name_hash[key] == min_key}
+  name_hash.detect do |keys|
+    if name_hash[key] = min_key
+      return key
+    end
 end
