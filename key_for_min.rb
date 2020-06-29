@@ -9,5 +9,5 @@ def key_for_min_value(name_hash)
       min_key = name_hash[key]
     end
   end
-  name_hash.select {|key, values| name_hash[min_key] ==
+  name_hash.select {|key, values| name_hash[key] == min_key}
 end
