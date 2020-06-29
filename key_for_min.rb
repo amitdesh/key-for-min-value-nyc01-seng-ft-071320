@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
   end
   name_hash.detect do |keys|
     if name_hash[keys] = min_key
-      return key
+      return keys
     end
   end
 end
