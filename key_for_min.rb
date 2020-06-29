@@ -9,5 +9,5 @@ def key_for_min_value(name_hash)
       min_key = name_hash[key]
     end
   end
-  return min_key
+  name_hash.select {|values|
 end
